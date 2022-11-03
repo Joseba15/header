@@ -1,0 +1,16 @@
+body{
+    margin :0 ;
+    height: 100vh;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 1fr;
+    grid-template-rows: 0.16fr 0.5fr 1fr;
+    height: 100vh;
+    margin: 2em;
+}
+
+.header{
+    
+}
