@@ -2,40 +2,60 @@ body {
   margin: 0;
 }
 
+.grid-container {
+  background-image: url(IMAGES/menu.png);
+  background-size: cover;
+}
+
+/* MENU DESPEGABLE */
+
+
 li, ol{
     list-style-type: none; 
+    position: relative;
 }
 
 
 .menu{
   margin-left: 1080px;
+  margin-top: 30px;
 } 
 
 
+.more{
+  display:inline-block;
+  position:absolute;
+  right:0px;
+  font-size:30px;
+}
 
-.nav li a {
+  .nav > li a {
   background-color: #655b49;
   color: #fff;
   text-decoration: none;
-  padding: 10px 15px;
-  display: block;
+  padding: 5px 10px;
+  display: inline-block;
   font-family: Arial;
 }
 
+/*Hover*/
 .nav li a:hover {
   background-color: #434343;
 }
 
-.nav > li {
-  float: left;
+
+.nav:hover {
+  background-color: #434343;
 }
 
-.nav li {
+/* .nav li {
   display: none;
   position: absolute;
   min-width: 140px;
-}
+} */
 
+
+/* HEADER */
 .header {
   background-color: #151413;
   padding: 20px 10px;
@@ -54,10 +74,3 @@ li, ol{
   border-radius: 4px;
   
 }
-
-
-  
-
-
-
-  /* ----------------------------- ESTILO JOSEBA */
