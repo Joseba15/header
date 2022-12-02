@@ -1,5 +1,6 @@
 body { 
   margin: 0;
+
 }
 
 .grid-container {
@@ -15,11 +16,23 @@ li, ol{
     position: relative;
 }
 
+#img_menu{
+  margin-top: 20px;
+}
 
-.menu{
-  margin-left: 1080px;
-  margin-top: 30px;
-} 
+.menuDiv{
+  height: 0px;
+  /* transition: height 1s; */
+}
+
+.menuDiv.desplegado{
+  float: right;
+  background-color: #635858  ;
+  position: absolute;
+  width: 100vw;
+  height: 100px;
+  transition: height 1s;
+}
 
 
 .more{
@@ -30,12 +43,13 @@ li, ol{
 }
 
   .nav > li a {
-  background-color: #655b49;
   color: #fff;
   text-decoration: none;
-  padding: 5px 10px;
+  padding-top: 20px;
+  padding-left: 120px;
+  float: left;
   display: inline-block;
-  font-family: Arial;
+  font-family: 'Montserrat', Arial,;
 }
 
 /*Hover*/
