@@ -26,7 +26,7 @@ li, ol{
 }
 
 .menuDiv.desplegado{
-  float: right;
+  float: right; 
   background-color: #635858  ;
   position: absolute;
   width: 100vw;
@@ -87,4 +87,30 @@ li, ol{
   line-height: 25px;
   border-radius: 4px;
   
+}
+
+@media screen and (max-width :481px)  {
+  .menuDiv.desplegado{
+     
+   background-color: #635858  ;
+   position: absolute;
+   width: 100vw;
+   height: 40vh;
+   transition: height 1s;
+ }
+
+ .nav > li a {
+  color: #fff;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-left: 0px;
+  float: none;
+  display: inline-block;
+  font-family: 'Montserrat', Arial,;
+}
+
+a{
+  text-align: center;
+}
+
 }

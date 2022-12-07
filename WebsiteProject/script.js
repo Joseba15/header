@@ -26,5 +26,6 @@ window.onload = init;
         //     document.querySelector(".menuDiv").style.display = "none";            
         // };
         document.querySelector(".menuDiv").classList.toggle('desplegado')
+        // document.querySelector(".more").style.background-color=" #434343";
         
     }
